@@ -1,9 +1,13 @@
 {
     "name": "typingspeed",
     "displayName": "TypingSpeed",
-    "description": "Shows typing speed",
+    "description": "Shows typing speed in the status bar",
     "version": "0.0.1",
     "publisher": "albintheander",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlbinTheander/vsc-typingspeed"
+    },
     "engines": {
         "vscode": "^1.12.0"
     },
@@ -14,6 +18,7 @@
         "*"
     ],
     "main": "./out/src/extension",
+    "license": "MIT",
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
         "compile": "tsc -watch -p ./",
