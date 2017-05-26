@@ -3,6 +3,10 @@
     "displayName": "TypingSpeed",
     "description": "Shows typing speed in the status bar",
     "version": "0.0.1",
+    "author": {
+        "name": "Albin Theander",
+        "url": "https://github.com/AlbinTheander"
+    },
     "publisher": "albintheander",
     "repository": {
         "type": "git",
