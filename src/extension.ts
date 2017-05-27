@@ -30,7 +30,7 @@ class TypingSpeed {
             cpm = count * 60000 / (now - firstTime);
         }
 
-        this._statusBarItem.text = `$(keyboard) ${cpm.toFixed(1)} cps`;
+        this._statusBarItem.text = `$(keyboard) ${cpm.toFixed(1)} cpm`;
         this._statusBarItem.show();
     }
 
