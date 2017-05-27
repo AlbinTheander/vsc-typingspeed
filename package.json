@@ -2,7 +2,7 @@
     "name": "typingspeed",
     "displayName": "TypingSpeed",
     "description": "Shows typing speed in the status bar",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "Albin Theander",
         "url": "https://github.com/AlbinTheander"
