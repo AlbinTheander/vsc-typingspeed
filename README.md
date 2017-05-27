@@ -10,4 +10,8 @@ Users appreciate release notes as you update your extension.
 
 Initial release of typing speed. Shows "XXX cpm" in the status bar.
 
+### 0.0.2
+
+Speed counter resets after not typing for two seconds.
+
 **Enjoy!**
