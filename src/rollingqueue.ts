@@ -20,6 +20,13 @@ export default class RollingArray {
         }
     }
 
+    clear() {
+        this._data = [];
+        this._size = 0;
+        this._first = 0;
+        this._last = -1;
+    }
+
     size(): number {
         return this._data.length;
     }

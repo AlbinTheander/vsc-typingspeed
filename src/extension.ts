@@ -13,6 +13,7 @@ export function activate(context: ExtensionContext) {
 class TypingSpeed {
     private _keystrokes: RollingArray = new RollingArray(100);
     private _statusBarItem: StatusBarItem;
+    private _lastUpdate: number = 0;
 
     public updateSpeed() {
 
@@ -21,6 +22,10 @@ class TypingSpeed {
         }
 
         const now = Date.now();
+        if (now - this._lastUpdate > 2000) {
+            this._keystrokes.clear();
+        }
+        this._lastUpdate = now;
         this._keystrokes.add(now);
 
         let cpm = 0;
