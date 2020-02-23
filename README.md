@@ -4,7 +4,7 @@ This is a tiny extenstion that will show your typing speed in the status bar.
 
 ## Release Notes
 
-These are a short overview of the progross. For a more details, check out the [changelog](CHANGELOG.md)
+These are a short overview of the progress. For a more details, check out the [changelog](CHANGELOG.md)
 
 ### 0.0.2
 
