@@ -29,13 +29,15 @@ class TypingSpeed {
         this._keystrokes.add(now);
 
         let cpm = 0;
+        let wpm = 0;
         const count = this._keystrokes.size();
         if (count > 1) {
             const firstTime = this._keystrokes.first();
             cpm = count * 60000 / (now - firstTime);
+            wpm = cpm / 5;
         }
 
-        this._statusBarItem.text = `$(keyboard) ${cpm.toFixed(1)} cpm`;
+        this._statusBarItem.text = `$(keyboard) ${wpm.toFixed(1)} wpm`;
         this._statusBarItem.show();
     }
 
